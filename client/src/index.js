@@ -18,7 +18,7 @@ import {
 import { ApolloProvider } from   'react-apollo'
 
 const client = new ApolloClient({
-    uri: "http://localhost:1024/graphql",
+    uri: "https://graphql-recipe-app.herokuapp.com/graphql",
   });
 
 const Root = () => (
